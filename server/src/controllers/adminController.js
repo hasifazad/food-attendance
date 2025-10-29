@@ -118,7 +118,8 @@ module.exports = {
                 return pass;
             };
 
-            const password = generatePassword();
+            // const password = generatePassword();
+            const password = '123456';
 
             // Step 3: Insert user
             const query = `INSERT INTO users (name, mobile, password, admin_id) VALUES (?, ?, ?, ?)`;
