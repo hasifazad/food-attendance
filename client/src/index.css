@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+/* gentle custom */
+body {
+    background: linear-gradient(180deg, #fbfdff 0%, #ffffff 100%);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
